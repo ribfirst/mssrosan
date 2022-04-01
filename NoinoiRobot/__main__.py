@@ -77,18 +77,19 @@ def get_readable_time(seconds: int) -> str:
 NOINOI_IMG = "https://telegra.ph/file/a439299736dc1fe3928e3.jpg"
 
 PM_START_TEXT = """
-**ɪ ᴀᴍ ɴᴏɪɴᴏɪ🌸🤖** [ㅤ](https://telegra.ph/file/a439299736dc1fe3928e3.jpg)
-️➖➖➖➖➖➖➖➖➖➖➖➖➖
-**sᴜᴘᴇʀғᴀsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ 🌸. ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs!!**
-️➖➖➖➖➖➖➖➖➖➖➖➖➖
-☉ **ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ.**
+**✪ Waxaan Ahay Mss Rosan Caawisada Groups ka Telegram.🌸** [🤖](https://telegra.ph/file/f4be750f40e7d85823a78.jpg)
+️• ────── ✾ ────── •
+😎 Sɪ ᴀᴀɴ Kᴜᴜ ᴄᴀᴀᴡɪʏᴏ Uɢᴜ Cᴀsᴜᴜᴍ Gʀᴏᴜᴘ ᴋᴀᴀɢᴀ Iɪɴᴀ Dʜɪɪʙ 
+Mᴀᴀᴍᴜʟᴋᴀ Gʀᴏᴜᴘ Qᴇʏʙ Kᴀ ᴍɪᴅ ᴀʜ
+• ────── ✾ ────── •
+✪ Ku dhufo /help si aad u aragto amarradayda diyaarsan..**
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="✨ Uᴘᴅᴀᴛᴇ", url="https://t.me/BAZIGARXD"),
+        InlineKeyboardButton(text="✨ Uᴘᴅᴀᴛᴇ", url="https://t.me/teamosmani"),
         InlineKeyboardButton(text=" ᴀʙᴏᴜᴛ", callback_data="noi_about"),
-        InlineKeyboardButton(text="📣 Uᴘᴅᴀᴛᴇ", url="https://t.me/CFC_BOT_SUPPORT"),
+        InlineKeyboardButton(text="📣 ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/osmanigroupbot"),
 
     ],
     [
@@ -99,13 +100,13 @@ buttons = [
     ],
     [
         
-        InlineKeyboardButton(text="Aᴅᴅ ᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ ✨", url="http://t.me/NOINOI_BOT?startgroup=true"),
+        InlineKeyboardButton(text="➕ ❰ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕", url="http://t.me/Mss_Rosan_Bot?startgroup=true"),
     ],
 ]
 
 
 HELP_STRINGS = """
-**Main commands:**  [ㅤ](https://telegra.ph/file/a439299736dc1fe3928e3.jpg)
+**Main commands:**  [ㅤ](https://telegra.ph/file/1d38e2291d525abd2e272.jpg)
 ❂ /start: sᴛᴀʀᴛ ᴍᴇ ʏᴏᴜ ʜᴀᴠᴇ ᴘʀᴏʙᴀʙʟʏ ᴀʟʀᴇᴀᴅʏ ᴜsᴇᴅ ᴛʜɪs..
 ❂ /help: sᴇɴᴅ ᴛʜɪs ᴍᴇssᴀɢᴇ ɪ ᴡɪʟʟ ᴛᴇʟʟ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍʏsᴇʟғ.
 
@@ -114,7 +115,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """ʜᴇʜᴇ ʏᴏᴜ ᴄᴀɴ ᴅᴏɴᴇᴛ ғʀᴏᴍ ʜᴇᴀʀ!
- [NOINOI](https://t.me/BAZIGARXD) ❤️
+ [TEAM OSMANI](https://t.me/teamosmani) ❤️
 """
 
 IMPORTED = {}
@@ -359,7 +360,7 @@ def noi_about_callback(update, context):
     query = update.callback_query
     if query.data == "noi_":
         query.message.edit_text(
-            text= "❍ Hey this is my music commands you can use in your group. \n\n❍ **POWERD BY NOINOI MUSIC**",
+            text= "❍ Hey this is my music commands you can use in your group. \n\n❍ **POWERD BY 𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 MUSIC**",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Music", callback_data="noi_musics"),InlineKeyboardButton("Join", callback_data="noi_join"),InlineKeyboardButton("Auth", callback_data="noi_auth"),],[InlineKeyboardButton("Blacklist", callback_data="noi_blacklist"),InlineKeyboardButton("Ping", callback_data="noi_ping"),InlineKeyboardButton("Lyrics", callback_data="noi_lyrics"),],[InlineKeyboardButton("<<", callback_data="noi_next"),InlineKeyboardButton("📍 Home", callback_data="noi_back"),InlineKeyboardButton(">>", callback_data="noi_next"),],]
@@ -368,8 +369,8 @@ def noi_about_callback(update, context):
         
     elif query.data == "noi_next":
         query.message.edit_text(
-            text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
-            f"\n\n❍ Hey this feature has many commands, & this feature is knnown as music command.\n❍ this feature is also help you to manage your group \n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
+            text=f"**──𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
+            f"\n\n❍ Hey this feature has many commands, & this feature is knnown as music command.\n❍ this feature is also help you to manage your group \n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
             
             
             parse_mode=ParseMode.MARKDOWN,
@@ -388,8 +389,8 @@ def noi_about_callback(update, context):
         
     elif query.data == "noi_music":
         query.message.edit_text(
-            text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
-            f"\n\n❍ Hey this feature has many commands, & this feature is knnown as music command.\n❍ this feature is also help you to manage your group \n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
+            text=f"**──𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
+            f"\n\n❍ Hey this feature has many commands, & this feature is knnown as music command.\n❍ this feature is also help you to manage your group \n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
             
             
             parse_mode=ParseMode.MARKDOWN,
@@ -399,14 +400,14 @@ def noi_about_callback(update, context):
         )
     elif query.data == "noi_musics":
         query.message.edit_text(
-            text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
+            text=f"**──𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
             f"\n\n❍ /play : for play music on voice chat."
             f"\n\n❍ /pause : for pause music on voice chat."
             f"\n\n❍ /resume : for resume music on voice chat."
             f"\n\n❍ /skip : for skip music on voice chat."
             f"\n\n❍ /mute : for mute music on voice chat."
             f"\n\n❍ /unmute : unmute play music on voice chat."
-            f"\n\n❍ /end : for end music on voice chat.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
+            f"\n\n❍ /end : for end music on voice chat.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
             
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -416,10 +417,10 @@ def noi_about_callback(update, context):
         ) 
     elif query.data == "noi_join":
         query.message.edit_text(
-            text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
+            text=f"**──𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
             f"\n\n❍ /join : for join the voice chat."
             f"\n\n❍ /leave : for leave the voice chat."
-            f"\n\n❍ /leaveassistant : for leave assistant from voice chat.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
+            f"\n\n❍ /leaveassistant : for leave assistant from voice chat.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
             
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -429,10 +430,10 @@ def noi_about_callback(update, context):
         ) 
     elif query.data == "noi_auth":
         query.message.edit_text(
-            text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
+            text=f"**──𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
             f"\n\n❍ /join : for join the voice chat."
             f"\n\n❍ /leave : for leave the voice chat."
-            f"\n\n❍ /leaveassistant : for leave assistant from voice chat.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
+            f"\n\n❍ /leaveassistant : for leave assistant from voice chat.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
             
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -442,10 +443,10 @@ def noi_about_callback(update, context):
         ) 
     elif query.data == "noi_blacklist":
         query.message.edit_text(
-            text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
+            text=f"**──𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
             f"\n\n❍ /chatbl : for blacklist any chat."
             f"\n\n❍ /charwl : for remove blacklist chats."
-            f"\n\n❍ /blchats : for cheak black list chats.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
+            f"\n\n❍ /blchats : for cheak black list chats.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
             
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -455,8 +456,8 @@ def noi_about_callback(update, context):
         ) 
     elif query.data == "noi_ping":
         query.message.edit_text(
-            text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
-            f"\n\n❍ /ping : for cheak bot working or dead.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
+            text=f"**──𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
+            f"\n\n❍ /ping : for cheak bot working or dead.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
             
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -466,8 +467,8 @@ def noi_about_callback(update, context):
         ) 
     elif query.data == "noi_lyrics":
         query.message.edit_text(
-            text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
-            f"\n\n❍ /lyrics : for get song lyrics.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
+            text=f"**──𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
+            f"\n\n❍ /lyrics : for get song lyrics.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
             
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -477,9 +478,9 @@ def noi_about_callback(update, context):
         )
     elif query.data == "noi_theame":
         query.message.edit_text(
-            text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
+            text=f"**──𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
             f"\n\n❍ /theme : - Set a theme for thumbnails"
-            f"\n\n❍ /settheame : - Set a theme for thumbnails.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
+            f"\n\n❍ /settheame : - Set a theme for thumbnails.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
             
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -489,14 +490,14 @@ def noi_about_callback(update, context):
         )
     elif query.data == "noi_server":
         query.message.edit_text(
-            text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
+            text=f"**──𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
             f"\n\n❍ /logs : 100 logs line"
             f"\n\n❍ /vars : config vars from heroku"
             f"\n\n❍ /delvars : del any vars or env"
             f"\n\n❍ /setvars : set any var or update"
             f"\n\n❍ /usage : get dyno usage"
             f"\n\n❍ /update : update your bot"
-            f"\n\n❍ /restart : restart your bot.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
+            f"\n\n❍ /restart : restart your bot.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
             
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -506,8 +507,8 @@ def noi_about_callback(update, context):
         )
     elif query.data == "noi_song":
         query.message.edit_text(
-            text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
-            f"\n\n❍ /song : - for download song.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
+            text=f"**──𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
+            f"\n\n❍ /song : - for download song.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
             
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -528,8 +529,8 @@ def noi_about_callback(update, context):
         )
     elif query.data == "noi_stats":
         query.message.edit_text(
-            text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
-            f"\n\n❍ /stats : - for cheak stats of bot.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
+            text=f"**──𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
+            f"\n\n❍ /stats : - for cheak stats of bot.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
             
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -539,9 +540,9 @@ def noi_about_callback(update, context):
         )
     elif query.data == "noi_assist":
         query.message.edit_text(
-            text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
+            text=f"**──𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
             f"\n\n❍ /setassistant : - for set the bot assistant."
-            f"\n\n❍ /changeassistant : - for change the bot assistant.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
+            f"\n\n❍ /changeassistant : - for change the bot assistant.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
             
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -556,10 +557,10 @@ def noi_about_callback(update, context):
             f"\n\n❍ Our bot is superfast with smooth music player with advance new featurs"
             f"\n\n❍ We remove no need space up plugins & noinoi is now is stable and easily deploy in 2 min."
             f"\n\n❍ Today i am sharing the source code of this bot with"
-            f"\n\n 💡 Powerd by @BAZIGARXD",
+            f"\n\n 💡 Powerd by @ribajosmani",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Noinoi's repo 📂", url="https://github.com/TeamNoinoi/noinoirobot"),],
+                [[InlineKeyboardButton(text="Rosan's repo 📂", url="https://github.com/Ribaj"),],
                  [InlineKeyboardButton(text="Back", callback_data="noi_back"),]]
             ),
         )
@@ -569,13 +570,13 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi.. ɪ'ᴀᴍ noinoi*
-                 \nHere is the [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://github.com/hyko-xd/noinoirobot) .""",
+                 \nHere is the [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://github.com/OsmaniPro) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Updates 📍", url="https://t.me/bazigarxd")
+                    InlineKeyboardButton(text="Updates 📍", url="https://t.me/teamosmani")
                  ]
                 ]
             ),
@@ -614,7 +615,7 @@ def get_help(update: Update, context: CallbackContext):
             )
             return
         update.effective_message.reply_text(
-            "💡 Hear all noinoi commands menu is opend you can cheak the following menu bar click on buttons.",
+            "💡 Hear all rosan commands menu is opend you can cheak the following menu bar click on buttons.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
