@@ -1,7 +1,7 @@
 {
-      "name": "NOINOI ROBOT",
+      "name": "𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻",
       "description": "Telegram group management bot.",
-      "logo": "https://telegra.ph/file/9bb667c3757e1580cd10c.jpg",
+      "logo": "https://telegra.ph/file/1d38e2291d525abd2e272.jpg",
       "keywords": [
          "telegram",
          "anime",
@@ -9,7 +9,7 @@
          "manager",
          "noinoi"
       ],   
-   "repository": "https://github.com/hyko-xd/NoinoiRobot.git",
+   "repository": "https://github.com/testosmani/mss.git",
    "addons": [
       {
          "options": {
@@ -50,7 +50,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "5279179288"
+         "value": "1008271006"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
@@ -67,7 +67,7 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "BAZIGARYT"
+         "value": "ribajosmani"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
@@ -90,12 +90,12 @@
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001714136588"
+         "value": "-1001150107625"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-1001714136588"
+         "value": "-1001150107625"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -173,7 +173,7 @@
       "BL_CHATS": {
          "description": "List of chats you want blacklisted.",
          "required": false,
-         "value": "-1001631426065"
+         "value": "-1001150107625"
       },
       "ALLOW_EXCL": {
          "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
@@ -182,7 +182,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://t.me/CFC_BOT_SUPPORT"
+         "value": "https://t.me/osmanigroupbot"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
