@@ -229,7 +229,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/CFC_BOT_SUPPORT")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="teamosmani")]]
             ),
         )
         
@@ -518,7 +518,7 @@ def noi_about_callback(update, context):
         )
     elif query.data == "noi_speed":
         query.message.edit_text(
-            text=f"**──𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
+            text=f"**──𝗥𝗢𝗦𝗔𝗡 𝗠𝗨𝗦𝗜𝗖 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚──**"
             f"\n\n❍ /speedtest : - for cheak speed of bot.\n\n 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥",
             
             parse_mode=ParseMode.MARKDOWN,
@@ -552,10 +552,10 @@ def noi_about_callback(update, context):
         )
     elif query.data == "noi_about":
         query.message.edit_text(
-            text=f" 🧩 Hear the noinoi page."
-            f"\n\n❍ Hey welcome hear to noinoi's private page we are saying big thanks to you for using our bot."
+            text=f" 📡 Hear the 𝗥𝗢𝗦𝗔𝗡 page."
+            f"\n\n❍ Hey welcome hear to 𝗥𝗢𝗦𝗔𝗡 private page we are saying big thanks to you for using our bot."
             f"\n\n❍ Our bot is superfast with smooth music player with advance new featurs"
-            f"\n\n❍ We remove no need space up plugins & noinoi is now is stable and easily deploy in 2 min."
+            f"\n\n❍ We remove no need space up plugins & Rosan is now is stable and easily deploy in 2 min."
             f"\n\n❍ Today i am sharing the source code of this bot with"
             f"\n\n 💡 Powerd by @ribajosmani",
             parse_mode=ParseMode.HTML,
@@ -800,7 +800,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1963422158 and DONATION_LINK:
+        if OWNER_ID != 1008271006 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
@@ -846,7 +846,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I Aᴍ Aʟɪᴠᴇ 🔥")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I Aᴍ Aʟɪᴠᴇ 🐈")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
