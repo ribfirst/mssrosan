@@ -81,12 +81,12 @@ def resize_image(image):
 
 
 __mod_name__ = "Tɢʀᴀᴘʜ"
-LUNA_IMG = "https://telegra.ph/file/7c3c26e0ed938aec91209.jpg"
+LUNA_IMG = "https://telegra.ph/file/6b3999a2e4a7eded83161.jpg"
 __help__ = """
-*𝗣𝗟𝗨𝗚𝗜𝗡𝗦 𝗙𝗥𝗢𝗠 𝗡𝗢𝗜𝗡𝗢𝗜 𝗕𝗢𝗧 * [📚](https://telegra.ph/file/7c3c26e0ed938aec91209.jpg)
+*𝗣𝗟𝗨𝗚𝗜𝗡𝗦 𝗙𝗥𝗢𝗠 𝗥𝗢𝗦𝗔𝗡 𝗕𝗢𝗧 * [📚](https://telegra.ph/file/6b3999a2e4a7eded83161.jpg)
 
 /tm - `upload media on telegraph.`
 /txt - `upload text file on telegraph.`
 
-*🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥*
+*🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗥𝗢𝗦𝗔𝗡 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥*
 """
