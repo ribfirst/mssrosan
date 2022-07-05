@@ -12,9 +12,9 @@ PHOTO = "https://telegra.ph/file/eb89fecd86d300697f0f0.jpg"
 @MEMEK(pattern=("/alive"))
 async def awake(event):
   tai = event.sender.first_name
-  LUNA = "**HELLO I AM ╚»𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻«╝ 🎵!** \n\n"
+  LUNA = "**HELLO I AM *{}* 🎵!** \n\n"
   LUNA += "✨ **I'M WORKING PROPERLY** \n\n"
-  LUNA += "✨ **MY MASTER : [Osmani](https://T.ME/ribajosmani)** \n\n"
+  LUNA += "✨ **MY MASTER : [Owner Bot](https://T.ME/ribajosmani)** \n\n"
   LUNA += f"✨ **Telethon Version : {tlhver}** \n\n"
   LUNA += f"✨ **PYROGRAM VERSION : {pyrover}** \n\n"
   LUNA += "**THANS FOR ADDING ME HEAR ❤️**"
@@ -24,7 +24,7 @@ async def awake(event):
 @MEMEK(pattern=("/cmd"))
 async def reload(event):
   tai = event.sender.first_name
-  LUNA = "✅ **𝗛𝗘𝗔𝗥 𝗧𝗛𝗘 𝗦𝗢𝗠𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗙𝗢𝗥 »𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻 𝗠𝗨𝗦𝗜𝗖 & 𝗩𝗜𝗗𝗘𝗢 & 𝗘𝗫𝗧𝗔𝗥𝗡𝗔𝗟 𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦 📌**"
+  LUNA = "✅ **𝗛𝗘𝗔𝗥 𝗧𝗛𝗘 𝗦𝗢𝗠𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗙𝗢𝗥 »𝗠𝗨𝗦𝗜𝗖 & 𝗩𝗜𝗗𝗘𝗢 & 𝗘𝗫𝗧𝗔𝗥𝗡𝗔𝗟 𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦 📌**"
   buttons = [
     [
         InlineKeyboardButton(text="𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 📚", callback_data="luna_"),
