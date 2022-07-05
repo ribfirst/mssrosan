@@ -6,8 +6,8 @@ from NoinoiRobot.utils.inlinefuncs import *
 __mod_name__ = "ɪɴʟɪɴᴇ"
 
 __help__ = """
-commands can be used by anyone in a group via inline.
-Usage: @noinoi_bot <func> <query>"""
+awaamiirta waxaa isticmaali kara qof kasta oo koox ka tirsan isagoo isticmaalaya khadka.
+Isticmaalka: @teamosmani <func> <query>"""
 
 @app.on_inline_query()
 async def inline_query_handler(client, query):
