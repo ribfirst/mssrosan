@@ -1,6 +1,6 @@
-<p align="center"><a href="https://t.me/NOINOI_BOT"><img src="https://telegra.ph/file/d22126b9843a46dd05aa0.jpg"></a></p>
+<p align="center"><a href="https://t.me/Mss_rosan_bot"><img src="https://telegra.ph/file/eb89fecd86d300697f0f0.jpg"></a></p>
 
-    𝐍𝐨𝐢𝐧𝐨𝐢 𝐑𝐨𝐛𝐨𝐭 🤖
+    Mss Rosan 🤖
 
 </p>
 
