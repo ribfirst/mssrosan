@@ -265,16 +265,16 @@ def new_member(update: Update, context: CallbackContext):
            # make kontol asu
             elif new_mem.id == bot.id:
                 update.effective_message.reply_text(
-                        "❤️ <b>Thanks for adding me to the group!</b>\n\n<b>Promote me as administrator of the group, otherwise I will not be able to work properly.</b>",
+                        "❤️ <b>Waad ku mahadsantahay inaad igu dartay Group Kan!</b>\n\n<b>Ii dhiib admin ka group ka si aan u shaqeyo, haddii kale ma awoodi doono inaan si sax ah u shaqeeyo.</b>",
                         reply_markup=InlineKeyboardMarkup(
                             [
                                 {
                                     InlineKeyboardButton(
-                                        text="ɢᴏ ɪɴʟɪɴᴇ​!",
-                                        switch_inline_query_current_chat=""),
+                                        text=" ᴏᴡɴᴇʀ ​!",
+                                        url="https://t.me/teamosmani",
                                     InlineKeyboardButton(
                                         text="sᴜᴘᴘᴏʀᴛ​",
-                                        url="https://t.me/BAZIGAR_XD",
+                                        url="https://t.me/osmanigroupbot",
                                     )
                                 }
                             ]
@@ -284,7 +284,7 @@ def new_member(update: Update, context: CallbackContext):
                     )
                 bot.send_message(
                     JOIN_LOGGER,
-                    "I have been added to {} with \nID: <pre>{}</pre>".format(
+                    "Waa la igu daray {} with \nID: <pre>{}</pre>".format(
                         chat.title, chat.id),
                     parse_mode=ParseMode.HTML)
 
